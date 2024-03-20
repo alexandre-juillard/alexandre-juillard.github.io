@@ -99,8 +99,12 @@ nav li{
     text-align: center;
 }
 
-.etudesEcole{
-    margin-left: 10%;
+.etudesEcole, .expCadre{
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .ecole{
@@ -110,6 +114,7 @@ nav li{
     color: white;
     align-items: center;
     /* border-radius: 1.2em; */
+    text-align: center;
     padding: 15px;
     margin: 20px;
 }
@@ -121,22 +126,12 @@ nav li{
     border-radius: 0.5em;
 }
 
-.ecole img{
-    margin-left: 30%;
-}
-
-.expCadre{
-    margin-top: 5%;
-    text-align: center;
-    
-}
-
 .experienceUniv{
     width: 70%;
     height: 20%;
     color: white;
     text-align: center;
-    margin-left: 14%;
+    /* margin-left: 14%; */
 }
 
 .experienceUniv ul{
@@ -148,12 +143,6 @@ nav li{
 .experienceUniv li{
     margin-bottom: 12px;
 }
-
-/* .experienceUniv img{
-    width: 10%;
-    height: 20%;
-    border-radius: 0.5em;  
-} */
 
 .mail:hover{
     font-weight: bold;
