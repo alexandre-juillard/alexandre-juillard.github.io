@@ -138,6 +138,7 @@ nav li{
     flex-direction: column;
     list-style: none;
     font-style: italic;
+    padding-left: 0;
 }
 
 .experienceUniv li{
